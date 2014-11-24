@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+
+<head>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<style>
+
+
+
+body {
+  background-color: #98C848;
+}
+
+body > div.featured-image-wrap { 
+border-bottom: 5px solid #98C848;
+top: -21px;
+}
+
+body > div.container > nav {
+    margin-top: 0px;
+}
+
+body >div.container {
+    margin-top: -7px;
+}
+
+
+#navbarCollapse {
+    border-bottom: solid 5px #98C848; 
+    font-family: 'Open Sans', sans-serif;
+    }
+
+#navbarCollapse > form {
+    margin-left: 764px;
+}
+
+body > hr {
+margin-top: 66px;
+margin-bottom: -45px;
+border: 0;
+border-top: 4px solid #98C848;
+}
+
+body > div.page > hr {
+margin-top: 0px;
+margin-bottom: -45px;
+border: 0;
+border-top: 4px solid #98C848;   
+}
+
+
+body > div.page > p:nth-child(1) {
+bottom: -20px;
+left: 481px;
+position: absolute;
+font-family: 'Open Sans', sans-serif;
+font-size: 24px;
+}
+
+body > div.page > p:nth-child(4) {
+font: 'Open Sans', sans-serif;
+font-size: 24px;
+}
+
+body > div.page > div:nth-child(2) > div.blurred {
+    border-top: solid, #98C848;
+}
+
+body > div.page > p:nth-child(4) {
+padding-bottom: 48px;
+font-family: 'Open Sans', sans-serif;
+font-size: 24px;
+max-width: 700px;
+padding: 98px 0px;
+margin: 0 auto;
+}
+
+body > div.page > div:nth-child(5) {
+border-top: solid 4px #98C848;
+border-bottom: solid 4px #98C848;
+}
+
+body > img:nth-child(9) {
+position: relative;
+left: 150px;
+height: 508px;
+bottom: -52px;
+}
+
+body > img:nth-child(10) {
+height: 100px;
+width: 350px;
+position: absolute;
+left: 1239px;
+bottom: 179px;
+}
+
+body > div.container > nav {
+border-top-width: 0.111;
+border-top-width: 0px;
+margin-top: 4px;
+background-color: #98C848;
+}
+
+body > div.page > p:nth-child(1) {
+    border-top: soild green;
+}
+
+body > div.page {
+margin-top: 45px;
+}
+
+body > div.featured-image-wrap > img {
+height:50px;
+width:20px;
+}
+
+.featured-image-wrap {
+position: relative;
+max-height: 550px;
+overflow: hidden;
+}
+.featured-image-wrap span {
+content: '';
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+top: 0;
+background: #000;
+opacity: 0.5;
+min-width: 100%;
+min-height: 100%;
+}
+.featured-image-wrap:after {
+content: '';
+background: url(images/noise.png);
+position: absolute;
+top: 0;
+left: 0;
+min-width: 100%;
+min-height: 100%;
+background-repeat: repeat;
+background-size: 150px 150px;
+}
+.feature-image {
+position: relative;
+overflow: hidden;
+width: 100%;
+min-height: 550px;
+}
+.infowrap {
+position: relative;
+width: 100%;
+overflow: hidden;
+margin: 0 auto;
+margin-top: -300px;
+max-width: 750px;
+}
+
+
+.infowrap img {
+float:left;
+width: 36px;
+border-radius: 18px;
+margin-top: 20px;
+}
+
+.page {
+margin-top: 100px;
+}
+.page p {
+font-family: 'Open Sans', sans-serif;
+font-size: 24px;
+max-width:700px;
+padding: 50px 0px;
+margin: 0 auto;
+}
+
+body > div.container > nav {
+margin-top: 20px;
+left: -229px;
+width: 1602px;
+background-color: #98C848;
+margin-top: 6px;
+}
+
+/* Blur Effect */
+.image-wrap {
+position:relative;
+height:800px;
+overflow:hidden
+}
+.regular, .blurred {
+position:absolute;
+width:100%;
+min-height: 800px;
+-webkit-transform: translate3d(0,0,0);
+-moz-transform: translate3d(0,0,0);
+-o-transform: translate3d(0,0,0);
+-ms-transform: translate3d(0,0,0);
+transform: translate3d(0,0,0);
+}
+.regular {opacity:1;}
+.blurred { opacity:0;}
+
+body > div.container {
+    background-color:#98C848;
+}
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+</head>
+
+<body>
+<style type="text/css">
+    .navbar{
+        margin-top: 20px;
+    }
+</style>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<style type="text/css">
+    .navbar{
+        margin-top: 20px;
+    }
+</style>
+</head> 
+<body>
+
+<div class="container">
+    <nav role="navigation" class="navbar navbar-inverse">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand">Seymour Knowmore by Brickstream</a>
+        </div>
+
+        <!-- Collection of nav links, forms, and other content for toggling -->
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+
+
+                <li class="dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#"> Social Media <b class="caret3"></b></a>
+                    <ul role="menu" class="dropdown-menu">
+                        <li><a href="https://www.facebook.com/SmartSeymour" target="_blank">Facebook</a></li>
+                        <li><a href="https://twitter.com/seymourknowmore" target="_blank">Twitter</a></li>
+                        <li><a href="http://www.hate2wait.com" target="_blank">In-Store Analytics</a></li>
+                    </ul>
+                </li>
+
+
+
+                <li class="dropdown2">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#"> Blog <b class="caret2"></b></a>
+                    <ul role="menu" class="dropdown-menu">
+                        <li><a href="http://hate2wait.com/can-dancing-crosswalks-keep-people-safe/" target="_blank">Hate To Wait</a></li>
+                        <li><a href="http://hate2wait.com/improving-customer-experience-is-a-team-effort/" target="_blank">Big Data</a></li>
+                        <li><a href="http://instagram.com/" target="_blank">Instagram</a></li>
+                          <li class="divider"></li>
+                        <li><a href="http://www.hate2wait.com" target="_blank">All Posts</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form role="search" class="navbar-form navbar-left">
+                <div class="form-group">
+                    <input type="text" placeholder="Search" class="form-control">
+                </div>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"></a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<div class="featured-image-wrap">
+	<div class="feature-image" style="background:url(images/smartdevice2.jpg) no-repeat center center; background-size: cover;"> <!-- Add the background top image here -->
+		<span></span>
+
+	</div>
+    <hr>
+</div>
+        <img src="images/SeymourNBG.png">
+
+        <img src="images/WordLogo.png">
+
+<hr>
+<div class="page">
+
+<p>Hi, I'm Seymour. Welcome to my page. <br> 
+<br>
+Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.
+
+</p>
+
+<div class="image-wrap">
+     <div class="regular" style="background:url(images/seymour01-dkr.png) no-repeat center center; background-size: cover;"></div>
+     <div class="blurred" style="background:url(images/seymour01.png) no-repeat center center; background-size: cover;opacity:0;"></div>
+</div>
+<hr>
+<p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.</p>
+
+<div class="image-wrap">
+     <div class="regular" style="background:url(images/smartdevices-drk.png) no-repeat center center; background-size: cover;"></div>
+     <div class="blurred" style="background:url(images/smartdevices.jpg) no-repeat center center; background-size: cover;opacity:0;"></div>
+</div>
+
+<p>Completely synergize resource sucking relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+
+</div>
+<span class="medium-icon"></span>
+<script>
+
+function fader() {
+    var r = $('.blurred'),
+        wh = $(window).height(),
+        dt = $(document).scrollTop(),
+        elView, opacity;
+    
+    // Loop elements with class "blurred"
+    r.each(function() {
+        elView  = wh - ($(this).offset().top - dt + 300);
+        if (elView > 0) { // Top of DIV above bottom of window.
+            opacity = 1 / (wh + $(this).height()) * elView * 3
+            if (opacity < 1) // Bottom of DIV below top of window.
+                $(this).css('opacity', opacity);
+		}
+		
+    });
+}
+$(document).bind('scroll', fader);
+</script>
+</body>
+</html>
